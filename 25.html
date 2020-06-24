@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TodoApp</title>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="25.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+</head>
+<body>
+
+<div class="container" id="inst">
+	<br>
+	<div class="row"  style="text-align: center;">
+		<span>INSTRUCTIONS</span>
+	</div>
+	<div style="padding:2%">
+	<ol>
+		<li>Welcome to your own web toDo-list app to finally keep a track of your daily activities efficiently!</li>
+		<li>Click on the "Add new Todo" to add a new toDo to the list.</li>
+		<li>Hover over any added toDo for the trash icon to appear. Click on this trashcan icon to permanently delete the toDo.</li>
+		<li>On completing any task, you can also temporarily strike through a toDo by simply clicking on it. For the task to appear pending again, click on the striked off toDo.</li>
+		<li>Click on the icon on the top bar to hide/unhide the input box.</li>
+		<li>Add as many toDos as you want and enjoy! <i class="fas fa-smile-beam"></i></li>
+	</ol>	
+	</div>
+	<div>
+		<ol>
+		</ol>
+	</div>
+</div>
+<div class="container">
+	<div class="row" id="top">
+		<span>TO-DO LIST</span>
+		<span style="float:right"><button><i class="fas fa-plus"></i></button></span>
+	</div>
+		<div id="input" class="row">
+		<div style="width:100%"><input type="text" placeholder="Add New Todo" maxlength="30"></div>
+	</div>
+	<div>
+		<ul>
+		</ul>
+	</div>
+</div>
+
+</body>
+<script type="text/javascript" src="25.js"></script>
+</html>
