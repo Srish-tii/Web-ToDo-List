@@ -1,4 +1,8 @@
+
 $("button").on("click",function(){
+	
+	$("button i").toggleClass("fas fa-plus");
+	$("button i").toggleClass("fas fa-minus");
 	$("#input").slideToggle(300);
 });
 $("#input").on("mouseenter",function(){
